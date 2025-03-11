@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #FFD700;
+}
+
+h3 {
+    color: #00FF7F;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #FF4500;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 45%;
+}
