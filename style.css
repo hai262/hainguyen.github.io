@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    /* New background image */
+    /* Background image */
     background: url("https://www.highdigital.co.uk/wp-content/uploads/2024/11/AI-and-Machine-Learning-are-Shaping-Software-Development.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
@@ -78,6 +78,9 @@ section p, section ul, section li {
     font-size: 18px;
     line-height: 1.6;
     margin: 10px 0;
+}
+.edu-block {
+    margin-bottom: 20px;
 }
 
 /* Project Cards */
