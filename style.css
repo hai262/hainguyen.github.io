@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    /* Set the new background image */
     background: url("https://sloanreview.mit.edu/wp-content/uploads/2017/05/AI-DA-Bean-Artificial-Intelligence-Big-Data-Scale-1200-1200x630.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
