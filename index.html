@@ -5,34 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hai Nguyen Quoc - Big Data & Analytics Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- AOS CSS for animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Navigation Bar -->
   <header>
     <nav>
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" data-aos="fade-down">Home</a></li>
+        <li><a href="#about" data-aos="fade-down" data-aos-delay="100">About</a></li>
+        <li><a href="#skills" data-aos="fade-down" data-aos-delay="200">Skills</a></li>
+        <li><a href="#projects" data-aos="fade-down" data-aos-delay="300">Projects</a></li>
+        <li><a href="#experience" data-aos="fade-down" data-aos-delay="400">Experience</a></li>
+        <li><a href="#education" data-aos="fade-down" data-aos-delay="500">Education</a></li>
+        <li><a href="#certifications" data-aos="fade-down" data-aos-delay="600">Certifications</a></li>
+        <li><a href="#contact" data-aos="fade-down" data-aos-delay="700">Contact</a></li>
       </ul>
     </nav>
-    <div id="home" class="hero">
+    <div id="home" class="hero" data-aos="fade-up">
       <h1>🚀 Hai Nguyen Quoc</h1>
       <p>Big Data & Analytics Portfolio</p>
       <p>Master’s Student at SGH Warsaw School of Economics</p>
     </div>
   </header>
 
-  <section id="about">
+  <!-- About Section -->
+  <section id="about" data-aos="fade-right">
     <h2>👨‍💼 About Me</h2>
     <p>Hello! I'm Hai Nguyen Quoc, a Master’s student in Big Data at SGH Warsaw School of Economics with a strong foundation in data analytics, business intelligence, and machine learning applications. I have nearly 6 years of experience working in business data analysis within the motorcycle industry, specializing in data processing, visualization, and trend analysis. My expertise lies in turning raw data into meaningful insights to support business decision-making.</p>
-    <p>Currently, I am deepening my knowledge in Big Data technologies, cloud computing, and advanced machine learning techniques. I am particularly interested in predictive analytics, time-series forecasting, and recommendation systems. I am passionate about applying data science techniques to solve real-world problems and am always seeking opportunities to collaborate and grow in the field of Big Data and Analytics.</p>
+    <p>Currently, I am deepening my knowledge in Big Data technologies, cloud computing, and advanced machine learning techniques. I am particularly interested in predictive analytics, time-series forecasting, and recommendation systems. I am passionate about learning and applying data science techniques to solve real-world problems, and I continuously seek opportunities to collaborate and grow in the field of Big Data and Analytics.</p>
   </section>
 
-  <section id="skills">
+  <!-- Skills Section -->
+  <section id="skills" data-aos="fade-left">
     <h2>🛠 Technical Skills</h2>
     <ul>
       <li><strong>Programming:</strong> Python, R, SQL, C++, C#</li>
@@ -44,38 +50,39 @@
     </ul>
   </section>
 
-  <section id="projects">
+  <!-- Projects Section -->
+  <section id="projects" data-aos="fade-up">
     <h2>📊 Featured Projects</h2>
     
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in">
       <h3>🚦 Traffic Prediction (GRU)</h3>
       <p>Deep learning model predicting traffic volume using GRU.</p>
       <a href="https://hai262-trafficprediction.streamlit.app/">Live Demo</a>
       <a href="https://github.com/hai262/TrafficPrediction">GitHub Repo</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
       <h3>📊 Sales Forecasting</h3>
       <p>Predicting sales trends using time-series forecasting models.</p>
       <a href="https://hai262-salesforecasting.streamlit.app/">Live Demo</a>
       <a href="https://github.com/hai262/SalesForecasting">GitHub Repo</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
       <h3>🎯 Customer Segmentation</h3>
       <p>Segmenting customers using clustering and machine learning techniques.</p>
       <a href="https://hai262-customersegmentationanalysis.streamlit.app/">Live Demo</a>
       <a href="https://github.com/hai262/CustomerSegmentationAnalysis">GitHub Repo</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
       <h3>🛒 TIKI Recommender System</h3>
       <p>Recommending products using collaborative filtering techniques.</p>
       <a href="https://hai262-tikirecommendersystem.streamlit.app/">Live Demo</a>
       <a href="https://github.com/hai262/TIKIRecommenderSystem">GitHub Repo</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
       <h3>📊 Coffee Point Data Analysis</h3>
       <p>Analyzing coffee shop sales and customer behavior.</p>
       <a href="https://hai262-coffeepointdataanalysis.streamlit.app/">Live Demo</a>
@@ -83,27 +90,50 @@
     </div>
   </section>
 
-  <section id="experience">
+  <!-- Experience Section -->
+  <section id="experience" data-aos="fade-right">
     <h2>💼 Experience</h2>
     <h3>Business Data Analyst</h3>
-    <p>Nearly 6 years of experience in the motorcycle industry specializing in data processing, visualization, and trend analysis to drive business decision-making.</p>
+    <p>Nearly 6 years of experience in the motorcycle industry, specializing in data processing, visualization, and trend analysis to support business decision-making.</p>
   </section>
 
-  <section id="education">
+  <!-- Education Section -->
+  <section id="education" data-aos="fade-left">
     <h2>🎓 Education</h2>
     <h3>Master’s in Big Data</h3>
-    <p>SGH Warsaw School of Economics – Currently pursuing a Master’s in Big Data with a focus on advanced machine learning, predictive analytics, and cloud computing.</p>
+    <p>SGH Warsaw School of Economics – Pursuing a Master’s in Big Data with a focus on advanced machine learning, predictive analytics, and cloud computing.</p>
   </section>
 
-  <section id="contact">
+  <!-- Certifications Section -->
+  <section id="certifications" data-aos="fade-up">
+    <h2>📜 Certifications & Achievements</h2>
+    <ul>
+      <li>Certified in TensorFlow & Machine Learning (Coursera/Google)</li>
+      <li>Completed Advanced SQL and Big Data Analytics courses</li>
+      <li>Recipient of [Specific Award/Honor]</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
     <h2>📬 Contact Me</h2>
     <p>Email: <a href="mailto:hai262@example.com">hai262@example.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR_PROFILE">LinkedIn Profile</a></p>
     <p>Portfolio: <a href="https://hai262.github.io/">hai262.github.io</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Hai Nguyen Quoc. All Rights Reserved.</p>
   </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
 </body>
 </html>
