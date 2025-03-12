@@ -1,34 +1,119 @@
+/* Global Styles */
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #2c3e50, #4ca1af);
-    color: white;
-    text-align: center;
-    padding: 20px;
+    color: #ffffff;
 }
 
-h1, h2 {
-    color: #FFD700;
+/* Navigation Bar */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
 }
-
-h3 {
-    color: #00FF7F;
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
-
-a {
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
     color: #FFD700;
     text-decoration: none;
     font-size: 18px;
+    transition: color 0.3s ease;
 }
-
-a:hover {
+.navbar a:hover {
     color: #FF4500;
 }
 
-.project-card {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
+/* Hero Section */
+.hero {
+    padding: 60px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.hero p {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00FF7F;
+}
+section h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #00BFFF;
+}
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Project Cards */
+.project-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
     display: inline-block;
-    width: 45%;
+    vertical-align: top;
+    width: calc(50% - 40px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.project-card h3 {
+    margin-top: 0;
+}
+.project-card p {
+    margin: 10px 0;
+}
+.project-card a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 8px 12px;
+    background: #FFD700;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.project-card a:hover {
+    background: #FF4500;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFD700;
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
 }
